@@ -191,6 +191,27 @@ button {
   }
 }
 
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link {
+  color: var(--text-color);
+  display: flex;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.nav__link i {
+  font-size: 1.25rem;
+}
+
+.nav__link span {
+  display: none;
+}
+
 /* Change background header */
 
 /* Active link */
