@@ -414,12 +414,12 @@ button {
 
 /* Swiper class */
 .swiper-button-prev::after,
-.swipper-button-next::after {
+.swiper-button-next::after {
   content: "";
 }
 
 .swiper-button-next,
-.swipper-button-prev {
+.swiper-button-prev {
   top: initial;
   bottom: 0;
   width: initial;
@@ -436,7 +436,7 @@ button {
   left: calc(50% - 3rem);
 }
 
-.swipper-button-next {
+.swiper-button-next {
   right: calc(50% - 3rem);
 }
 /*=============== VALUE ===============*/
