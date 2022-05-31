@@ -26,9 +26,8 @@ const accordionItems = document.querySelectorAll('.value__accordion-item')
 accordionItems.forEach((item) => {
     const accordionHeader = item.querySelector('.value__accordion-header')
 
-    accordionHeader.addEventListener('click', () =>{
+    accordionHeader.addEventListener('click', () => {
         const openItem = document.querySelector('.accordion-open')
-        
         toggleItem(item)
 
 
@@ -44,9 +43,9 @@ const toggleItem = (item) => {
     if(item.classList.contains('accordion-open')) {
         accordionContent.removeAttribute('style')
         item.classList.remove('accordion-open')
-    }else{
-        accordionContent.style.height = accordionContent.scrollHeight + 'px'
-        item-classList.add('accordion-open')
+    } else {
+         accordionContent.style.height = accordionContent.scrollHeight + 'px'
+         item.classList.add('accordion-open')
     }
 }
 
