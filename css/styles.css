@@ -806,7 +806,7 @@ button {
 .scrollup {
   position: fixed;
   right: 1rem;
-  bottom: 8rem;
+  bottom: -30%;
   background-color: var(--container-color);
   box-shadow: 0 8px 12px hsla(228, 66%, 45% 0.1);
   display: inline-flex;
@@ -822,7 +822,11 @@ button {
   transform: translateY(-0.25rem);
   color: var(--first-color);
 }
+
 /* Show Scroll Up*/
+.show-scroll {
+  bottom: 8rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
