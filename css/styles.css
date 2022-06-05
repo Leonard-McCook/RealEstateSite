@@ -98,7 +98,14 @@ button {
 }
 
 /*=============== THEME ===============*/
+.change-theme {
+  font-size: 1.25rem;
+  color: #fff;
+  cursor: pointer;
+  transition: 3s;
+}
 
+.change-theme:hover 
 /*========== Variables Dark theme ==========*/
 
 /*========== 
